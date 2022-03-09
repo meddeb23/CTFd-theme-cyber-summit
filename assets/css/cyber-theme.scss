@@ -1,7 +1,43 @@
 @font-face {
-    font-family: "damase";
-    src: url("../mph_2b_damase/damase_v.2.ttf");
+  font-family: "damase";
+  src: url("../mph_2b_damase/damase_v.2.ttf");
 }
-body{
-    background-color: blue;
+body {
+  background-color: #0b1a24;
+  color: #fff;
+  main {
+    padding-top: 0;
+    .jumbotron {
+      background-image: url("../../static/img/banner.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 7.5rem 2rem;
+      border-bottom: 10px solid #c0c0c0;
+      .container h1 {
+        background: -webkit-linear-gradient(180deg, #e1cc6d, #895001);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    .table {
+      color: #fff;
+    }
+    .form-control {
+      color: #fff;
+    }
+  }
+}
+
+#navbar {
+  color: #fff;
+}
+.scolled-navbar {
+  background-image: url("../../static/img/banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
 }
